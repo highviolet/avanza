@@ -249,7 +249,7 @@ class ReturnModelTest(unittest.TestCase):
         for time_period in InsightsReportTimePeriod:
             with self.subTest(time_period=time_period):
                 insights_report = get_or_cache(
-                    self.avanza.get_insights_report, [account_id, time_period]
+                    self.avanza.get_insights_report, [[account_id], time_period]
                 )
 
                 try:
