@@ -131,7 +131,7 @@ class Route(enum.Enum):
     ORDERS_PATH = "/_api/trading/rest/orders"
     FORUM_PATH = "/_api/market-guide/forum/{}"
     FUND_PATH = "/_api/fund-guide/guide/{}"
-    INSIGHTS_PATH = "/_api/insights-development/?timePeriod={}&accountIds={}"
+    INSIGHTS_PATH = "/_api/insights-development/insights"
     INSPIRATION_LIST_PATH = "/_mobile/marketing/inspirationlist/{}"
     INSTRUMENT_PATH = "/_api/market-guide/{}/{}"
     INSTRUMENT_DETAILS_PATH = "/_api/market-guide/{}/{}/details"
